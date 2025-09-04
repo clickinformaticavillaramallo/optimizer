@@ -1,8 +1,8 @@
 # run-optimizer.ps1
-$exeUrl = "https://github.com/hellzerg/optimizer/releases/download/16.9/Optimizer.exe"
-$tmpExe = "$env:TEMP\Optimizer.exe"
+$exeUrl = "https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe"
+$tmpExe = "$env:TEMP\Optimizer-16.7.exe"
 
-Write-Host "[*] Descargando Optimizer..." -ForegroundColor Yellow
+Write-Host "[*] Descargando Optimizer 16.7..." -ForegroundColor Yellow
 Invoke-WebRequest -Uri $exeUrl -OutFile $tmpExe -UseBasicParsing
 
 Unblock-File -Path $tmpExe
